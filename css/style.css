@@ -401,8 +401,12 @@ nav ul a:hover{
     color: var(--yellow-color);
 }
 
-#multimédia .image-bande-annonce{
-    padding: 90px 0;
+#multimédia .image-bande-annonce {
+    padding: 100px; /* Ajustez selon vos besoins */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    
 }
 
 /*Design de la contact - formulaire */
@@ -639,3 +643,23 @@ footer .social-footer{
 footer .social-item{
     padding: 15px;
 }
+/* position  des cercles */
+.cercle {
+    text-align: center; /* centres les cercles */
+}
+/* Style des cercles */
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: transparent; /* Couleur de fond transparente */
+    border: 1px solid #19587d; /* Bordure bleue */
+    border-radius: 50%; /* Rend le carré en cercle */
+    display: inline-block;
+    margin: 2px; /* Espacement entre les cercles */
+  }
+  
+  /* Style du cercle rempli */
+  .filled-circle {
+    background-color: var(--bleu-color); /* Bleu */
+  }
+  
