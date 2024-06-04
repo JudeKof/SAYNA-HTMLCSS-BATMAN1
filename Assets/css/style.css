@@ -6,7 +6,7 @@
 }
 
 
-:root{
+:root {
     --yellow-color: #FFFF00;
     --yellow-light: #f8f184;
     --bleu-color: #19587d;
@@ -19,27 +19,31 @@
     --gradient-grey: #19587d70;
     --color-g: #BCBBBD;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-family: 'rajdhani';
     font-size: 36px;
     font-weight: 400;
 }
-button{
+
+button {
     font-family: 'rajdhani';
     font-size: 20px;
     font-weight: 400;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
-body{
+
+body {
     background-color: black;
     color: white;
     font-family: 'Space Grotesk';
@@ -48,20 +52,20 @@ body{
     background-repeat: no-repeat;
     background-size: 35%;
     background-position: 887px 2850px;
-  
+
 }
 
 
 
-.up-bar{
+.up-bar {
     border-top: #BCBBBD 1px solid;
     position: absolute;
     top: 132px;
-    width: 87%;
-    left: 102px;
+    width: 88%;
+    left: 90px;
 }
 
-.left-bar{
+.left-bar {
     background-color: #BCBBBD;
     height: 8300px;
     left: 87%;
@@ -71,7 +75,7 @@ body{
     margin-left: 102px;
 }
 
-.right-bar{
+.right-bar {
     background-color: #BCBBBD;
     height: 8300px;
     right: 85%;
@@ -84,49 +88,52 @@ body{
 
 /*Design de la navigation*/
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-nav ul a{
-    color:var(--white-color) ;
+nav ul a {
+    color: var(--white-color);
     font-size: 25px;
     font-weight: 600;
     font-family: 'rajdhani';
     /*text-decoration: none; */
 }
-.logo:hover{
-    -webkit-filter:invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%) ;
+
+.logo:hover {
+    -webkit-filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
     filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
 }
-.logo-f:hover{
-    -webkit-filter:invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%) ;
+
+.logo-f:hover {
+    -webkit-filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
     filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
 }
-.social:hover{
-    -webkit-filter:invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%) ;
+
+.social:hover {
+    -webkit-filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
     filter: invert(4%) sepia(100%) saturate(1498%) hue-rotate(355deg) brightness(109%) contrast(103%);
 }
-.image-container:hover{
+
+.image-container:hover {
     transform: scale(1.1);
 }
 
-
-nav ul a:hover{
-     color: var(--yellow-color);
+nav ul a:hover {
+    color: var(--yellow-color);
 }
 
 
 /*Design de la partie en tête Hero */
 
-#hero{
+#hero {
     background-image: url(../Illustrations/Bathome1.png);
     height: 850px;
     background-position: top center;
@@ -135,7 +142,7 @@ nav ul a:hover{
     background-size: cover;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -145,36 +152,37 @@ nav ul a:hover{
     padding-top: 380px;
 }
 
-#hero .titre{
+#hero .titre {
     margin: 40px;
 }
-#hero .texte{
+
+#hero .texte {
     text-align: center;
     width: 85%;
     margin: 0 auto;
     font-size: 20px;
 }
 
-.btn{
-    text-decoration: none;
+.btn {
+    /*text-decoration: none;*/
     color: var(--white-color);
     font-size: 18px;
     padding: 15px 30px;
     margin: 20px;
     margin-top: 10px;
     opacity: 40%;
-    background: linear-gradient(
-        10deg,var(--white-color), var(--gradient-red)
-
-    );
+    background: linear-gradient(10deg, var(--white-color), var(--gradient-red));
     box-shadow: var(--black-color) 15px 15px 50px;
 }
-.btn:hover{
-    text-decoration: underline;
+
+.btn:hover {
+    /*text-decoration: none;*/
+    /*ne pas souligner*/
     font-weight: bold;
     opacity: 100%;
 }
-#hero .flèche{
+
+#hero .flèche {
     display: block;
     margin: 0 auto;
     margin-top: 250px;
@@ -185,12 +193,12 @@ nav ul a:hover{
     flex-direction: column;
     align-items: center;
     position: fixed;
-    right: 20px;
+    right: 10px;
     top: 200px;
 
 }
 
-.scroll .social{
+.scroll .social {
     margin-top: 30px;
     cursor: pointer;
 
@@ -199,17 +207,17 @@ nav ul a:hover{
 
 /*Design de la partie batman personnage */
 
-#Batman-cinéma{
+#Batman-cinéma {
     margin-top: 70px;
 }
 
-.batman-personnage{
+.batman-personnage {
     display: flex;
     justify-content: space-between;
 
 }
 
-.image-container{
+.image-container {
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -218,21 +226,23 @@ nav ul a:hover{
 }
 
 
-#Batman-cinéma .titre{
+
+#Batman-cinéma .titre {
     text-transform: uppercase;
     font-weight: bold;
     margin: 30px 0;
     padding-top: 70px;
 }
 
-#Batman-cinéma .description{
+#Batman-cinéma .description {
     margin-bottom: 70px;
     text-align: justify;
     width: 80%;
     font-size: 20px;
-    
+
 }
-#Batman-cinéma .personnage-info{
+
+#Batman-cinéma .personnage-info {
     text-align: center;
     padding: 20px;
 
@@ -240,25 +250,27 @@ nav ul a:hover{
 
 /*Design de la partie némésis */
 
-#Némésis{
+#Némésis {
     margin-top: 70px;
 }
 
-.némésis-personnage{
+.némésis-personnage {
     display: flex;
     justify-content: space-between;
 }
 
-.image-container{
+.image-container {
     display: inline-block;
     overflow: hidden;
     position: relative;
     transition: transform 0.3s ease;
     cursor: pointer;
+    margin-right: 40px;
+
 }
 
-#némésis .titre{
-    background-image:url(../Illustrations/Bathome13.png) ;
+#némésis .titre {
+    background-image: url(../Illustrations/Bathome13.png);
     background-size: 75%;
     background-position: top right;
     background-repeat: no-repeat;
@@ -270,14 +282,15 @@ nav ul a:hover{
 }
 
 
-#némésis .description{
+#némésis .description {
     margin-bottom: 70px;
     text-align: justify;
     width: 80%;
     font-size: 20px;
-    
+
 }
-#némésis .personnage-info{
+
+#némésis .personnage-info {
     text-align: center;
     padding: 20px;
 
@@ -285,16 +298,16 @@ nav ul a:hover{
 
 /*Design de la partie alliés*/
 
-#Alliés{
+#Alliés {
     margin-top: 70px;
 }
 
-.alliés-personnage{
+.alliés-personnage {
     display: flex;
     justify-content: space-between;
 }
 
-.image-container{
+.image-container {
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -302,14 +315,14 @@ nav ul a:hover{
     cursor: pointer;
 }
 
-#alliés .titre{
+#alliés .titre {
     text-transform: uppercase;
     font-weight: bold;
     margin: 30px 0;
     padding-top: 120px;
 }
 
-#alliés .description{
+#alliés .description {
     margin-bottom: 70px;
     text-align: justify;
     width: 80%;
@@ -317,7 +330,7 @@ nav ul a:hover{
 
 }
 
-#alliés .personnage-info{
+#alliés .personnage-info {
     text-align: center;
     padding: 20px;
 }
@@ -325,105 +338,107 @@ nav ul a:hover{
 
 /*Design justice league*/
 
-#batman-justice-league{
+#batman-justice-league {
     margin-top: 90px;
 }
 
-#batman-justice-league .titre{
+#batman-justice-league .titre {
     text-transform: uppercase;
     font-weight: bold;
     padding: -20px;
-    margin: 65px; 
+    margin: 65px;
 }
 
-#batman-justice-league .description{
+#batman-justice-league .description {
     margin-bottom: 70px;
     text-align: justify;
     width: 80%;
     font-size: 20px;
     margin: 70px;
     padding-top: 0 auto;
-    
+
 }
 
-.justice-league{
+.justice-league {
     position: absolute;
 }
 
 /*Design de la partie multimédia */
-#multimédia .titre{
+#multimédia .titre {
     padding-top: 70px;
 }
 
-#multimédia{
+#multimédia {
     padding-top: 15cm;
 }
 
 
-#multimédia button{
+#multimédia button {
     position: relative;
     background: none;
     border: none;
     top: 160px
 }
 
-#multimédia button.right{
+#multimédia button.right {
     right: -85%;
 }
 
-#multimédia .slider-multimédia{
+#multimédia .slider-multimédia {
     display: flex;
     width: 60%;
     margin: 10px auto;
     padding: 30px;
     font-family: 'Space Grotesk';
-    
+
 }
-#multimédia .slider-image{
+
+#multimédia .slider-image {
     width: 100%;
 
 }
-#multimédia .slider-content{
+
+#multimédia .slider-content {
     padding: 15px;
-    background: linear-gradient(
-         var(--gradient-white), var(--gradient-grey)
-    );
+    background: linear-gradient(var(--gradient-white), var(--gradient-grey));
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-   
+
 }
 
-#multimédia p{
+#multimédia p {
     font-size: 13px;
 }
 
-#multimédia .yellow{
+#multimédia .yellow {
     color: var(--yellow-color);
 }
 
 #multimédia .image-bande-annonce {
-    padding: 100px; /* Ajustez selon vos besoins */
+    padding: 100px;
+    /* Ajustez selon vos besoins */
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    
+    justify-content: center;
+    /* Centre horizontalement */
+    align-items: center;
+    /* Centre verticalement */
+
 }
 
 /*Design de la contact - formulaire */
 
-#contact{
-    background: linear-gradient(
-         var(--gradient-white), var(--gradient-grey)
-    );
-    padding: 70px 0; 
+#contact {
+    background: linear-gradient(var(--gradient-white), var(--gradient-grey));
+    padding: 70px 0;
 
 }
-#contact .form{
+
+#contact .form {
     width: 50%;
     margin: 0 auto;
 }
 
-#contact h2{
+#contact h2 {
     text-align: center;
     font-size: 35px;
     margin-bottom: 65px;
@@ -431,13 +446,14 @@ nav ul a:hover{
 
 }
 
-#contact .titre{
+#contact .titre {
     display: block;
     margin: 25px 0;
     padding-top: 20px;
 }
 
-#contact .form input[type='email'], textarea{
+#contact .form input[type='email'],
+textarea {
     display: block;
     border-top: none;
     border-right: none;
@@ -449,7 +465,8 @@ nav ul a:hover{
     margin: 20px 0;
 }
 
-#contact .form input[type='news'], textarea{
+#contact .form input[type='news'],
+textarea {
     display: block;
     border-top: none;
     border-right: none;
@@ -462,29 +479,29 @@ nav ul a:hover{
     padding-top: 50px;
 }
 
-#contact .news{
+#contact .news {
     margin: 20px 0;
     border-bottom: 2px solid rgb(206, 190, 190);
     width: 100%;
 
 }
 
-#contact .icon img{
+#contact .icon img {
     transform: rotate(90deg);
     width: 15px;
     cursor: pointer;
     position: relative;
     background: none;
     right: -95%;
-    
+
 }
 
-#menu{
+#menu {
     display: none;
 }
 
 
-.icon:hover .menu{
+.icon:hover .menu {
     display: block;
     position: relative;
     transition: all 0.3s ease;
@@ -492,7 +509,7 @@ nav ul a:hover{
     opacity: 1;
 }
 
-.menu{
+.menu {
     display: flex;
     position: absolute;
     transition: all 0.3s ease;
@@ -502,11 +519,9 @@ nav ul a:hover{
 }
 
 
-.menu li{
+.menu li {
     border-bottom: 1px solid;
-    background: linear-gradient(
-         var(--gradient-white), var(--gradient-grey)
-    );
+    background: linear-gradient(var(--gradient-white), var(--gradient-grey));
     padding-bottom: 10px;
     padding: 1em 1em;
     cursor: pointer;
@@ -515,67 +530,62 @@ nav ul a:hover{
 }
 
 
-::placeholder{
+::placeholder {
     color: #ffffff;
 }
-.btn-group{
+
+.btn-group {
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 
-.form input[type='radio']{
+.form input[type='radio'] {
     opacity: 0;
 }
 
-.btn-group label{
+.btn-group label {
     cursor: pointer;
     border: 2px solid;
     padding: 5px;
-    border-image: linear-gradient(
-        69deg, var(--gradient-white),var(--gradient-grey)
-    ) 1;
+    border-image: linear-gradient(69deg, var(--gradient-white), var(--gradient-grey)) 1;
     font-size: 12px;
     opacity: 40%;
-    
+
 }
 
-.btn-group label:hover{
+.btn-group label:hover {
     opacity: 100%;
 }
 
-.pop a{
+.pop a {
     display: block;
     width: 230px;
     margin: 70px auto;
     padding: 15px 0;
     cursor: pointer;
     color: var(--gradient-White);
-    background: linear-gradient(
-        50deg,var(--white-color), var(--gradient-red)
-    );
+    background: linear-gradient(50deg, var(--white-color), var(--gradient-red));
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
 
-#submit:target{
+#submit:target {
     visibility: visible;
     opacity: 1;
 }
 
-#submit{
+#submit {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: linear-gradient(
-         var(--gradient-white), var(--gradient-grey)
-    );
-    
+    background: linear-gradient(var(--gradient-white), var(--gradient-grey));
+
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     height: 20vh;
     width: 600px;
@@ -585,11 +595,11 @@ nav ul a:hover{
     top: -400px;
     visibility: hidden;
     opacity: 0;
-    
-    
+
+
 }
 
-.submit_close{
+.submit_close {
     position: absolute;
     right: 15px;
     top: 15px;
@@ -598,68 +608,113 @@ nav ul a:hover{
 }
 
 input[type="submit"]:hover {
-    background: linear-gradient(
-        10deg,var(--white-color), var(--gradient-red)
-
-    );
+    background: linear-gradient(10deg, var(--white-color), var(--gradient-red));
 }
-  
+
 
 
 /*Design citations*/
 
-#citations{
+#citations {
     margin: 90px;
 }
 
-#citations .citation-carte{
+#citations .citation-carte {
     text-align: center;
     width: 50%;
     margin: 0 auto;
 }
 
-#citations .citation-auteur{
+#citations .citation-auteur {
     padding-top: 30px;
     font-size: 12px;
     font-family: 'radjahni';
 }
 
-#citations .guillemet-close{
+#citations .guillemet-close {
     float: right;
 }
 
 /*Design du footer*/
-footer{
+footer {
     margin-top: 250px;
 }
-footer .text-footer{
+
+footer .text-footer {
     text-align: center;
     font-size: 10px;
 }
-footer .social-footer{
+
+footer .text-footer img {
+    margin-right: 10px;
+}
+
+footer .social-footer {
     text-align: center;
     margin: 30px 0;
 }
-footer .social-item{
+
+footer .social-item {
     padding: 15px;
 }
+
 /* position  des cercles */
 .cercle {
-    text-align: center; /* centres les cercles */
+    text-align: center;
+    /* centres les cercles */
 }
+
 /* Style des cercles */
 .circle {
     height: 10px;
     width: 10px;
-    background-color: transparent; /* Couleur de fond transparente */
-    border: 1px solid #19587d; /* Bordure bleue */
-    border-radius: 50%; /* Rend le carré en cercle */
+    background-color: transparent;
+    /* Couleur de fond transparente */
+    border: 1px solid #19587d;
+    /* Bordure bleue */
+    border-radius: 50%;
+    /* Rend le carré en cercle */
     display: inline-block;
-    margin: 2px; /* Espacement entre les cercles */
-  }
-  
-  /* Style du cercle rempli */
-  .filled-circle {
-    background-color: var(--bleu-color); /* Bleu */
-  }
-  
+    margin: 2px;
+    /* Espacement entre les cercles */
+    cursor: pointer;
+}
+
+/* Style du cercle rempli */
+.filled-circle {
+    background-color: var(--bleu-color);
+    /* Bleu */
+    cursor: pointer;
+}
+/* test
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+ }
+ 
+ .spinner {
+    border: 4px solid #890008;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+ }
+ 
+ @keyframes spin {
+    0% {
+       transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ } */
+ 
