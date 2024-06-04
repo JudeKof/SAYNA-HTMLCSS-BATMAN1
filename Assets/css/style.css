@@ -619,6 +619,23 @@ input[type="submit"]:hover {
     margin: 90px;
 }
 
+/* Définir les keyframes pour l'animation */
+@keyframes fadeInLeftToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Appliquer l'animation à l'élément parent */
+.fade-in-left {
+    animation: fadeInLeftToRight 1s ease-in-out forwards;
+}
+
 #citations .citation-carte {
     text-align: center;
     width: 50%;
