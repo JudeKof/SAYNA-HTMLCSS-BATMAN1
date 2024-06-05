@@ -631,7 +631,7 @@ input[type="submit"]:hover {
     }
 }
 
-/* Appliquer l'animation à l'élément parent */
+/* Appliquer l'animation à l'élément */
 .fade-in-left {
     animation: fadeInLeftToRight 1s ease-in-out forwards;
 }
