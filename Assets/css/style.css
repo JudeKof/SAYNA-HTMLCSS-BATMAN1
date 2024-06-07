@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @font-face {
-    font-family: 'rajdhani';
-    src: url(../police/Rajdhani-Medium.ttf);
+    font-family: 'Rajdhani';
+    src: url(../polices/Rajdhani-Medium.ttf);
 }
 
 
@@ -138,7 +138,6 @@ nav ul a:hover {
     height: 850px;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: black;
     background-size: cover;
 }
 
@@ -213,7 +212,8 @@ nav ul a:hover {
 
 .batman-personnage {
     display: flex;
-    justify-content: space-between;
+   
+    
 
 }
 
@@ -350,12 +350,11 @@ nav ul a:hover {
 }
 
 #batman-justice-league .description {
-    margin-bottom: 70px;
     text-align: justify;
     width: 80%;
     font-size: 20px;
     margin: 70px;
-    padding-top: 0 auto;
+    padding-top: 0;
 
 }
 
@@ -416,7 +415,6 @@ nav ul a:hover {
 
 #multimédia .image-bande-annonce {
     padding: 100px;
-    /* Ajustez selon vos besoins */
     display: flex;
     justify-content: center;
     /* Centre horizontalement */
@@ -668,11 +666,16 @@ footer .text-footer img {
 
 footer .social-footer {
     text-align: center;
-    margin: 30px 0;
+    margin: 30px;
+}
+/* Aligner les logos du bas */
+.social-item img {
+    vertical-align: middle; /* Alignement vertical au milieu */
 }
 
 footer .social-item {
     padding: 15px;
+    text-decoration: none;
 }
 
 /* position  des cercles */
@@ -702,4 +705,5 @@ footer .social-item {
     background-color: var(--bleu-color);
     /* Bleu */
     cursor: pointer;
+    /*curseur */
 }
