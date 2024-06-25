@@ -630,7 +630,7 @@ input[type="submit"]:hover {
 }
 
 /* Appliquer l'animation à l'élément */
-.fade-in-left {
+.fade-in {
     animation: fadeInLeftToRight 1s ease-in-out forwards;
 }
 
